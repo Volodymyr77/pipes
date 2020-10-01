@@ -1,0 +1,8 @@
+<div *ngFor="let product of products">
+  <h2>{{product.title | uppercase | more : ' ...more info' }}</h2>
+  <div>{{product.price}}</div>
+  <h3>{{product.image}}</h3>
+  <div>{{termin | date : 'dd-MM-yyyy'}}</div>
+
+
+</div>
